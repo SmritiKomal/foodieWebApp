@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-Jun-2020, 13:13:22
+    Author     : User
+*/
+body
+{
+    font-family: lucida grande,tahoma,verdana,arial,sans-serif,algerian;
+    background-color: wheat;
+}
+body p
+{
+    font-size: 0.8em;
+    line-height: 1.28;
+}
+
+header
+{
+clear: both;
+width: auto;
+height: 40px;
+padding: 10px;
+text-align: center;
+color: black;
+background-image: url(../Images/logo.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+font-size: 50px;
+font-style: bold;
+font-family: algerian;
+border: 5px solid brown;
+}
+
+#banner
+{
+    background-image: url(../Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 200px;
+}
+
+#content-area
+{
+float: left;
+width: 1200px;
+height: 550px;
+margin: 20px 20px 20px 20px;
+padding: 10px;
+}
+
+footer
+{
+clear: both;
+width: auto;
+height: 40px;
+padding: 10px;
+background-image: url(../Images/bar_background.png);
+background-repeat: no-repeat;
+background-size: cover;
+color: black;   
+}
+
+#navigation
+{
+height: 100px;
+border: 3px solid black;
+margin-top: 700px;
+text-align: center;
+text-shadow: 0.1em 0.1em black;
+background-color: black;
+border: 5px solid antiquewhite;
+}
+
+#nav
+{
+    list-style: none;
+}
+
+#nav ul
+{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: none;
+}
+
+#nav li
+{
+    font-size: 20px;
+    float: left;
+    position: initial;
+    width: 100px;
+    height: 40px;
+}
+
+#nav a:link, nav a:active, nav a:visited
+{
+    display: block;
+    color:white;
+    text-decoration: none;
+}
+
+#nav a:hover
+{
+    color: lightblue;
+}
+
+#sidebar
+{
+   float :left;
+    width: 600px;
+    height: 200px;
+    margin: 20px 10px 20px 10px;
+    padding: 10px;
+    border: 2px solid violet;
+}
+.imgRight
+{
+    float: right;
+    width: 300px;
+    height: 250px;
+    margin: 0px 0 10px 10px;
+    padding: 10px;   
+}
+
+.imgLeft
+{
+    float: left;
+    width: 400px;
+    height:250px;
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+}
+
